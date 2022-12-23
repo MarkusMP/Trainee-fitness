@@ -10,7 +10,7 @@ export default async function HomePageHead() {
   return (
     <SiteMeta
       description={page?.descriptionSEO}
-      // image={`https://leasyse.vercel.app/api/og?title=${page?.titleSEO}`}
+      image={`https://trainee-fitness.vercel.app/api/og?title=${page?.titleSEO}`}
       title={page?.titleSEO}
       noIndex={true}
     />

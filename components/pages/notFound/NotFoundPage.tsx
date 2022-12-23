@@ -10,7 +10,7 @@ const notFoundPage = ({ data }: { data: NotFoundPayload }) => {
         noIndex={true}
         title={data.titleSEO}
         description={data.descriptionSEO}
-        // image={`https://leasyse.vercel.app/api/og?title=${data.titleSEO}`}
+        image={`https://trainee-fitness.vercel.app/api/og?title=${data.titleSEO}`}
       />
       <div className="min-h-screen flex items-center text-center">
         <div className="mx-auto">
