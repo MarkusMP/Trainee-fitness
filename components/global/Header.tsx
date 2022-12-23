@@ -30,6 +30,7 @@ const Header = ({
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
+            aria-label="Hamburger Menu"
             onClick={() => setNavbarOpen((prevOpen) => !prevOpen)}
           >
             <FaBars className="hover:text-primary transition-all text-2xl " />

@@ -60,6 +60,7 @@ const Contact = ({
                 style={{ maxWidth: "450px" }}
                 className="w-full h-full"
                 frameBorder="0"
+                title="google maps"
               ></iframe>
             </div>
           )}
